@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Ex02_03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a, b, c;
+		
+		int result;
+		
+		Scanner S = new Scanner(System.in);//문자나 숫자를 입력받기 위한 명령
+		System.out.println("첫번째 값을 입력하세요");
+		a = S.nextInt();
+		System.out.println("두번째 값을 입력하세요");
+		b = S.nextInt();
+		System.out.println("세번째 값을 입력하세요");
+		c = S.nextInt();
+		//콘솔에서 a와 b의 값을 직접 입력해주면 다음 순서인 사칙연산으로 들어가게 된다
+	
+		result = a + b * c;
+		System.out.println(a + "+" + b + "*" + c + "=" + result);
+		
+		result = a - b * c;
+		System.out.println(a + "-" + b + "*" + c + "=" + result);
+		
+		result = a * b * c;
+		System.out.println(a + "*" + b + "*" + c + "=" + result);
+		
+		result = a / b * c;
+		System.out.println(a + "/" + b + "*" + c + "=" + result);
+		
+		
+		
+		
+		
+
+	}
+
+}
