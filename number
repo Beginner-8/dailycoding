@@ -1,0 +1,32 @@
+
+public class Ex02_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a, b;
+		int result;
+		
+		a = 100;
+		b = 50;
+		
+		result = a + b;//a,b의 값은 그대로이지만, result의 값이 변화가 있기 때문에 변화된 result값이 출력된다
+		System.out.println(a + "+" + b + "=" + result);
+		
+		result = a - b;//위의 덧셈값인 150에서 -값인 50으로 result값이 변경된다 아래의값도 마찬가지 이다
+		System.out.println(a + "-" + b + "=" + result);
+		
+		result = a * b;
+		System.out.println(a + "*" + b + "=" + result);
+		
+		result = a / b;
+		System.out.println(a + "/" + b + "=" + result);
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
