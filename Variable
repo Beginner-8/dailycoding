@@ -1,0 +1,53 @@
+
+public class Variable {
+
+	public static void main(String[] args) {
+		int a;
+		//int = 데이터의 형식(정수를 사용, 실수는 올 수 없다)
+		//a = 변수의 이름
+		a = 1;
+		//a 에 1의 값이 할당된다
+		System.out.println(a+1);
+		
+		a = 2;
+		//a가 2로 덮어써진다
+		System.out.println(a+2);
+		
+		
+		double b, c;
+		//정수는 int 실수는 double로 분류한다
+		b = 1.1;
+		//1.1은 실수이기 때문이다
+		c = 2;
+		System.out.println(b+c);
+		
+		
+//		String first;
+//		first = "coding";
+		//위 2줄과 아래 1줄은 같은 같은 값을 출력한다
+		String first = "coding";
+		System.out.println(first);
+		
+		String d, e;
+		d = "hello";
+		e = "world";
+		System.out.println(d+e);
+		
+		String f = "hello";
+		String g = "world";
+		System.out.println(f+g);
+		
+		//마찬가지로 d,e를 출력한 값과 f,g를 출력한 값은 같게 된다 
+		//이렇게 정수를 지정하는방법이 한가지만 있는것은 아니다
+		
+		
+		
+		
+				
+		
+		
+		
+		
+	}
+
+}
